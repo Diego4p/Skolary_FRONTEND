@@ -1,0 +1,21 @@
+
+<app-header style="background-color: #323f48;"></app-header>
+<!--agregamos este contenedor #E5F0F5-->
+<mat-drawer-container style="background-color: whitesmoke; color: black">
+    <!--el sidebar :v -->
+    <mat-drawer mode="side" style="background-color: #323f48;" opened>  
+        <app-sidebar></app-sidebar>
+
+    </mat-drawer>
+    <!--///////////////-->
+
+    <!--dashboard-->
+    <mat-drawer-content>
+        <!--aqui estara el dashboard-->
+        <router-outlet></router-outlet>
+
+    </mat-drawer-content>
+    <!--//////////////-->
+
+</mat-drawer-container>
+<!--/////////////////////////-->

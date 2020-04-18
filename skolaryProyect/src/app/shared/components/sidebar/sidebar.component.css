@@ -1,0 +1,45 @@
+.mat.icon
+{
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.profile-card
+{
+    text-align: center;
+    padding: 0 20px 20px 20px;
+    
+}
+.profile-card img
+{
+   
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius:50%;
+    
+}
+.class-name{
+    color: #00a99D;
+}
+
+
+
+a:focus {
+    background: #242325 !important;
+    color: white;
+    border-left: 5px solid #00a99D;
+
+  }
+
+.gray
+{
+    color:gray;
+} 
+.sub-titulo
+{
+    background-color:#00A99D;
+     color: white;
+     box-shadow: 5px 10px 18px #888888;
+}
+
+
