@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig : {
+    apiKey: "AIzaSyBuvSrnAFkfhIK2B_JtkWN72SKZnOAUWyw",
+    authDomain: "skolary-login.firebaseapp.com",
+    databaseURL: "https://skolary-login.firebaseio.com",
+    projectId: "skolary-login",
+    storageBucket: "skolary-login.appspot.com",
+    messagingSenderId: "34217525634",
+    appId: "1:34217525634:web:8fd6ab4d37e028ebf94f9b",
+    measurementId: "G-6Y23JC77HQ"
+  }
 };
 
 /*
