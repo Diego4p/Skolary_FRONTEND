@@ -12,6 +12,11 @@ import {MatCardModule} from '@angular/material/card';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
+import { RegistroComponent } from './layouts/login/registro.component';
+import { interceptorProvider } from './interceptors/prod-interceptor.service';
+
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -20,7 +25,8 @@ import { MatIconModule } from '@angular/material/icon';
   declarations: [
     AppComponent,
     LoginComponent,
-    PostsComponent
+    PostsComponent,
+    RegistroComponent
     
    
   ],
@@ -33,9 +39,11 @@ import { MatIconModule } from '@angular/material/icon';
     MatCardModule,
     MatExpansionModule,
     MatFormFieldModule,
-    MatIconModule
+    MatIconModule,
+    HttpClientModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [interceptorProvider],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

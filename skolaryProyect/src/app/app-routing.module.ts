@@ -4,6 +4,7 @@ import { DefaultComponent } from './layouts/default/default.component';
 import { DashboardComponent } from './modulos/dashboard/dashboard.component';
 import { LoginComponent } from './layouts/login/login.component';
 import { PostsComponent } from './modules/posts/posts.component';
+import { RegistroComponent } from './layouts/login/registro.component';
 
 
 const routes: Routes = [
@@ -13,7 +14,7 @@ const routes: Routes = [
    //el default actua como "base" para todo el dashboard :v
    
   {path: '',component: LoginComponent},
-
+  { path: 'registro', component: RegistroComponent },
   { path: 'default', component: DefaultComponent,
    children: [
      {path:'',component: DashboardComponent},

@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidebarComponent implements OnInit {
 
-  constructor() { }
+  nombre = sessionStorage.getItem("AuthUserName");
+
+  constructor() {
+    this.nombre;
+   }
 
   ngOnInit(): void {
   }
