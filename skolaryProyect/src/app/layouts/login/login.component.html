@@ -1,4 +1,56 @@
-<p>login works!</p>
-<!--este boton abrir el dashboard/ hecho por rutas /-->
-<!--modificar o cambios en login.component.ts-->
-<button  (click)="btnClick()">Entrar</button>
+
+<!--este boton "login" abre el dashboard/ hecho por rutas / segun la validadcion-->
+<!--modificar o cambios en el mismo login.component.ts -->
+<!--Se tiene entendido que nosotros proporcionamos un usuario y contraseña-->
+
+<section class="container z-depth-4 left" style=" border-radius: 30px; margin-top: 10%!important; width: 40%; margin-left: 10%!important; background-color:rgba(255, 255, 255, 0.92);">
+  
+ 
+    <!--div izquierda-->
+    <div class="col s12 m7 l3" >
+      
+      <!-- el secccccc del formulario :v-->
+      <section class="container">
+        <div class="row">
+          <br> 
+          <h5 class="center-align" style="font-size: 30px">Login Colegios</h5>
+          <!--aqui empieza el formulario-->
+          <br>
+          <article>
+            <form>
+              <!--dni-->
+              <div class="input-field">
+                <i class="material-icons prefix">perm_identity</i>
+                <label for="dni">Ingrese usuario...</label>
+                <input type="text" name="user" required>
+              </div>
+
+              
+             
+
+              <!--password-->
+              <div class="input-field">
+                <i class="material-icons prefix">perm_identity</i>
+                <label for="password">Ingrese contraseña...</label>
+                <input type="password" name="password" required>
+              </div>
+
+               
+               
+              <!--boton para enviar-->
+              <p class="center-align">
+                <button  (click)="btnClick()" class="waves-effect waves-light btn" style="background-color:#00e676;" type="submit"><i class="material-icons right">send</i>Ingresar</button>
+              </p>
+
+            </form>
+
+          </article>
+
+        </div>
+
+      </section>
+
+    </div>
+    
+</section>
+

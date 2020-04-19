@@ -24,6 +24,9 @@
     "@angular/router": "~9.1.0",
     "highcharts": "^8.0.4",
     "highcharts-angular": "^2.4.0",
+    "jquery": "^3.5.0",
+    "materialize-css": "^1.0.0",
+    "ngx-file-drop": "^9.0.1",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"

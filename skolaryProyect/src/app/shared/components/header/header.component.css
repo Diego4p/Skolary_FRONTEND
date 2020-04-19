@@ -2,6 +2,22 @@ ul li
 {
    list-style: none;
 }
-.class-name{
-    background-color: #00a99D;
+.fond{
+    background-color: #00a99D !important;
+}
+.salida
+{
+    background: black;
+}
+.salida:focus mat-menu
+{
+    background-color: violet !important;
+}
+.textwhite:focus
+{
+    color:white;
+}
+mat-menu-content
+{
+    background-color: royalblue;
 }

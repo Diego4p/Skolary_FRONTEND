@@ -1,21 +1,20 @@
-<mat-toolbar style="background-color: black" >
+<mat-toolbar style="background-color: #323f48; color: gray" >
+   
  <mat-toolbar-row>
-     <button mat-icon-button>
-         <mat-icon>menu</mat-icon>
-     </button>
-     <span>app logo</span>
+     
+     <span ><img src="assets/img/logo2.png"></span>
 
 
      <div fxFlex fxLayout="row" fxLayoutAlign="flex-end">
          <ul fxLayout="row" fxLayoutGap="20px">
              <li>
-                 <button mat-icon-button>
+                 <button class="textwhite" mat-icon-button>
                      <mat-icon>settings</mat-icon>
                  </button>
              </li>
 
              <li>
-                <button mat-icon-button>
+                <button class="textwhite" mat-icon-button>
                     <mat-icon>help_outline</mat-icon>
                 </button>
             </li>
@@ -23,11 +22,11 @@
            
 
             <li>
-                <button mat-button [matMenuTriggerFor] = 'menu'>
-                    <mat-icon>person_outline</mat-icon>
+                <button class="textwhite" mat-button [matMenuTriggerFor] = 'menu'>
+                    <mat-icon class="textwhite">person_outline</mat-icon>
                 </button>
-                <mat-menu #menu="matMenu">
-                    <button mat-menu-item>
+                <mat-menu #menu="matMenu" style="background: green !important;">
+                    <button mat-menu-item class="salida">
                         <mat-icon>exit_to_app</mat-icon>salir
                     </button>
 
